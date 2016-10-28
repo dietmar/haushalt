@@ -15,7 +15,7 @@ docker run \
  /var/www/html/haushalt/program/setup.bash
 ```
 
-Then open http://localhost:18000/haushalt in your browser.
+Then open [http://localhost:18000/haushalt/](http://localhost:18000/haushalt/) in your browser.
 
 For real use you should modify `haushalt/program/Config.php`.
 
