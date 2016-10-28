@@ -18,3 +18,5 @@ docker run \
 Then open http://localhost:18000/haushalt in your browser.
 
 For real use you should modify `haushalt/program/Config.php`.
+
+![Screenshot](https://github.com/dietmar/haushalt/blob/master/screenshot.png)
