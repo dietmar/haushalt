@@ -1,5 +1,7 @@
 # haushalt
 
+**haushalt** is a little PHP web application used for tracking household expenses, for example among student roommates (which is what I wrote it for).
+
 To try it in a docker container (a containerized environment):
 
 ```bash
@@ -19,4 +21,5 @@ Then open [http://localhost:18000/haushalt/](http://localhost:18000/haushalt/) i
 
 For real use you should modify `haushalt/program/Config.php`.
 
+It looks like this:
 ![Screenshot](https://github.com/dietmar/haushalt/blob/master/screenshot.png)
