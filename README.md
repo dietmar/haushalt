@@ -21,5 +21,5 @@ Then open [http://localhost:18000/haushalt/](http://localhost:18000/haushalt/) i
 
 For real use you should modify `haushalt/program/Config.php`.
 
-It looks like this:
+It looks like this (the interface is in German, change the templates to your needs):
 ![Screenshot](https://github.com/dietmar/haushalt/blob/master/screenshot.png)
