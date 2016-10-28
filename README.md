@@ -1,7 +1,8 @@
+# haushalt
 
 To try it in a docker container (a containerized environment):
 
-```
+```bash
 git clone git@github.com:dietmar/haushalt.git
 cd haushalt
 
@@ -15,3 +16,5 @@ docker run \
 ```
 
 Then open http://localhost:18000/haushalt in your browser.
+
+For real use you should modify `haushalt/program/Config.php`.
