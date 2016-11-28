@@ -45,7 +45,8 @@ class Haushalt
 {
 
    private $datafile = HAUSHALT_CURRENTFILE;
-   private $people = HAUSHALT_PEOPLE;
+   private $people_ser = HAUSHALT_PEOPLE;
+   private $people;
    private $tpldir = HAUSHALT_TEMPLATE_DIR;
    private $data;
    private $tpl;
@@ -54,6 +55,7 @@ class Haushalt
    // --------------------------------------------------------------------------
    function start()
    {
+      $this->people = unserialize($this->people_ser);
       $this->tpl = new Template($this->tpldir);
       $this->readData($this->datafile);
       
